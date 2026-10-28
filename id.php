@@ -1,0 +1,21 @@
+<?php
+return [
+  'app_title' => 'Katalog Buku', 'login' => 'Masuk', 'logout' => 'Keluar',
+  'username' => 'Nama Pengguna', 'password' => 'Kata Sandi',
+  'login_failed' => 'Nama pengguna atau kata sandi salah.',
+  'login_required' => 'Nama pengguna dan kata sandi wajib diisi.',
+  'welcome' => 'Halo', 'book_list' => 'Daftar Buku', 'add_book' => 'Tambah Buku',
+  'edit_book' => 'Ubah Buku', 'no' => 'No', 'title' => 'Judul', 'author' => 'Penulis',
+  'publisher' => 'Penerbit', 'year' => 'Tahun', 'isbn' => 'ISBN', 'price' => 'Harga (Rp)',
+  'action' => 'Aksi', 'edit' => 'Ubah', 'delete' => 'Hapus', 'save' => 'Simpan',
+  'update' => 'Perbarui', 'cancel' => 'Batal', 'search' => 'Cari judul/penulis...',
+  'confirm_delete' => 'Yakin ingin menghapus data ini?', 'empty' => 'Belum ada data.',
+  'saved' => 'Data berhasil disimpan.', 'updated' => 'Data berhasil diperbarui.',
+  'deleted' => 'Data berhasil dihapus.', 'not_found' => 'Data tidak ditemukan.',
+  'err_required' => 'Semua kolom wajib diisi.', 'err_year' => 'Tahun harus antara 1000 dan %d.',
+  'err_isbn' => 'ISBN harus 10-17 karakter (angka/tanda hubung).',
+  'err_price' => 'Harga harus berupa angka bulat ≥ 0.', 'err_dup' => 'ISBN sudah terdaftar.',
+  'err_csrf' => 'Token keamanan tidak valid. Muat ulang halaman.',
+  'err_db' => 'Terjadi kesalahan pada database.', 'language' => 'Bahasa',
+  'total' => 'Total data',
+];

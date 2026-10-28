@@ -1,0 +1,21 @@
+<?php
+return [
+  'app_title' => 'Book Catalog', 'login' => 'Login', 'logout' => 'Logout',
+  'username' => 'Username', 'password' => 'Password',
+  'login_failed' => 'Incorrect username or password.',
+  'login_required' => 'Username and password are required.',
+  'welcome' => 'Hello', 'book_list' => 'Book List', 'add_book' => 'Add Book',
+  'edit_book' => 'Edit Book', 'no' => 'No', 'title' => 'Title', 'author' => 'Author',
+  'publisher' => 'Publisher', 'year' => 'Year', 'isbn' => 'ISBN', 'price' => 'Price (IDR)',
+  'action' => 'Actions', 'edit' => 'Edit', 'delete' => 'Delete', 'save' => 'Save',
+  'update' => 'Update', 'cancel' => 'Cancel', 'search' => 'Search title/author...',
+  'confirm_delete' => 'Are you sure you want to delete this record?', 'empty' => 'No data yet.',
+  'saved' => 'Data saved successfully.', 'updated' => 'Data updated successfully.',
+  'deleted' => 'Data deleted successfully.', 'not_found' => 'Record not found.',
+  'err_required' => 'All fields are required.', 'err_year' => 'Year must be between 1000 and %d.',
+  'err_isbn' => 'ISBN must be 10-17 characters (digits/hyphens).',
+  'err_price' => 'Price must be a whole number ≥ 0.', 'err_dup' => 'ISBN already exists.',
+  'err_csrf' => 'Invalid security token. Please reload the page.',
+  'err_db' => 'A database error occurred.', 'language' => 'Language',
+  'total' => 'Total records',
+];
